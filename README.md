@@ -6,6 +6,12 @@
 
 [Live Demo Link](https://arcane-woodland-30814.herokuapp.com/)
 
+## Website ScreenShot
+
+![screenshot](./budget_app_site.png)
+
+## Database Schema
+
 ![screenshot](./budget_app_erd.png)
 
 ## Built With
