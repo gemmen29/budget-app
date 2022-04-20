@@ -3,7 +3,9 @@
     <nav class="flex items-center justify-between background-blue p-4 text-white">   
       <i class="fa-solid fa-bars text-2xl"></i>
       <h1>Categories</h1>
-      <i class="fa-solid fa-magnifying-glass"></i>
+      <%= button_to destroy_user_session_path, method: :delete do %>
+        <i class="fa-solid fa-arrow-right-from-bracket text-2xl"></i>
+      <% end %>
     </nav>
   </header>
   <p style="color: green"><%= notice %></p>
@@ -19,5 +21,3 @@
     </div>
   </div>
 </main>
-
-<%= button_to "Logout", destroy_user_session_path, method: :delete %>
