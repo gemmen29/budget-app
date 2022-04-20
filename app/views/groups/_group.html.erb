@@ -5,7 +5,7 @@
       <div class="flex justify-between w-full">
         <h3 class="text-xl text-gray-400"><%= group.name %></h3>
         <div class="font-bold">
-          $17.00
+          $<%= group.entities.inject(0) { |sum, e| sum + (e.amount) }%>
         </div>
       </div>
       <p class="text-gray-400"><%= group.created_at.strftime("%d %b %Y") %></p>
