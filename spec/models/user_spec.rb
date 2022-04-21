@@ -14,4 +14,3 @@ RSpec.describe User, type: :model do
     expect(@user).to_not be_valid
   end
 end
-

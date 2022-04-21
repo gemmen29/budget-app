@@ -46,7 +46,7 @@ RSpec.describe 'Register page', type: :feature do
   end
 
   it "shouldn't be able to enter to root route because email already taken" do
-    @user1.save()
+    @user1.save
     fill_in 'Full name', with: @user1.name
     fill_in 'Email', with: @user1.email
     fill_in 'Password', with: @user1.password
