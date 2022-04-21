@@ -9,6 +9,12 @@
         </div>
       </nav>
     </header>
+
+    <div>
+      <p class="notice"><%= notice %></p>
+      <p class="alert"><%= alert %></p>
+    </div>
+    
     <div class="field pt-2">
       <%= f.email_field :email, autofocus: true, autocomplete: "email", placeholder: "Email", class: "py-2 appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" %>
     </div>
